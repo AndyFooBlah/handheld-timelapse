@@ -1,0 +1,16 @@
+[project]
+name = "handheld-timelapse"
+version = "0.1.0"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "numpy",
+    "opencv-python",
+    "pillow",
+    "pillow-heif",
+    "torch",
+    "kornia",
+    "kornia-rs",
+    "ultralytics",
+    "imagehash",
+    "astral>=3.2",
+]

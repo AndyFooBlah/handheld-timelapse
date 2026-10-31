@@ -1,0 +1,3 @@
+# Copy to exclude.txt (gitignored). Photos never to use, one file name per line; preview.py drops them first.
+# Use it for the odd frame that slips past the filters, e.g. a portrait that happened to match the view.
+IMG_0006.HEIC  # not the view

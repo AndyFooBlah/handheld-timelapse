@@ -1,0 +1,29 @@
+# Copy to timelapse.toml (gitignored) and fill in for your own view.
+# The values here are placeholders: the Royal Observatory, Greenwich, looking north.
+
+[spot]
+lat = 51.4779          # where you stand
+lon = -0.0015
+heading = 0.0          # degrees true, the direction the view faces
+mag_declination = 0.0  # degrees east; only used for files that record a magnetic heading
+timezone = "Europe/London"
+
+[photos]
+dir = "data/photos"    # your exported originals, relative to the repo root
+
+[reference]
+image = "IMG_0001.HEIC"   # a sharp, typical shot of the view; every frame is aligned to it
+size = [5712, 4284]       # its width and height in pixels, upright
+crest = "IMG_0002.HEIC"   # a crisp skyline silhouette (dawn works well), for locking the far crop
+far_band = [0.60, 0.69]   # rows of the reference, as fractions, holding the distant skyline
+
+[standpoints]
+# If you shoot from two spots a few metres apart, a few typical frames from each. Labels are "oak" (framed by
+# foreground trees) and "open" (clear view); standpoint.py learns the difference from these.
+oak = ["IMG_0003.HEIC", "IMG_0004.HEIC"]
+open = ["IMG_0001.HEIC", "IMG_0005.HEIC"]
+
+[crops]
+# name = [x0, y0, x1, y1] as fractions of the reference frame. "far" is the tight crop of the distant view;
+# 16:9 on a 4:3 reference means (x1 - x0) * 4 / 3 = (y1 - y0) * 16 / 9.
+far = [0.33, 0.50, 0.68, 0.7625]

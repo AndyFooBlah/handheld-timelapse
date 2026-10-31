@@ -1,0 +1,9 @@
+# Your photos, their EXIF caches and everything derived from them stay local.
+data/
+timelapse.toml
+exclude.txt
+*.mp4
+*.gif
+.venv/
+__pycache__/
+.DS_Store
