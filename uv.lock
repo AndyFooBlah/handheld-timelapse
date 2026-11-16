@@ -1075,7 +1075,7 @@ wheels = [
 
 [[package]]
 name = "ultralytics"
-version = "8.4.202"
+version = "8.4.210"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "matplotlib" },
@@ -1091,9 +1091,9 @@ dependencies = [
     { name = "ultralytics-platform" },
     { name = "ultralytics-thop" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ec/46/7242e49c4811f9c27dba8c3d98d118cba209ea42a395b3921777678fc8d8/ultralytics-8.4.202.tar.gz", hash = "sha256:46b454e84dc96459178bcca3deecdf2e9548804bea76af92c392fae1307417d1", size = 1300481, upload-time = "2026-11-03T23:32:38.722Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e1/ee/e4076da2b79f49942790cc0df16ceaed091a8bd55a56d241e46653ac2ec8/ultralytics-8.4.210.tar.gz", hash = "sha256:b8d0162253197dbeada8b2c75c80e658451884106b4fc584b9ed0b869cd62d24", size = 1320010, upload-time = "2026-11-10T23:14:07.579Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/02/b3/d8a3d0d0b4d209659a8ea0bd9dec2171f329823f3baa5344eedb349fb24d/ultralytics-8.4.202-py3-none-any.whl", hash = "sha256:ae71dc5bb1024010fbdef5bd9281984ddd8c70885bddcfdd6aff0801b7015fb4", size = 1440905, upload-time = "2026-11-03T23:32:33.231Z" },
+    { url = "https://files.pythonhosted.org/packages/90/5c/9fd2c5397315f4b2a1467ef9b54dac0318263e9704b594dba63327f31692/ultralytics-8.4.210-py3-none-any.whl", hash = "sha256:3924c4becc029594d79b36344bd09c937b999b8791ff615acf6ddb535b87e302", size = 1459831, upload-time = "2026-11-10T23:14:03.441Z" },
 ]
 
 [[package]]
